@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+        <TextView
+            android:id="@+id/textViewTitleEditUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:text="Thông tin chi tiết"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:text="Mã nhân viên"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"
+            android:gravity="left"/>
+        <EditText
+            android:id="@+id/editTextPhoneID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:minHeight="64dp"
+            android:hint="ID/UID"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:text="Tên nhân viên"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"
+            android:gravity="left"/>
+        <EditText
+            android:id="@+id/editTextNamePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:minHeight="64dp"
+            android:hint="Tên nhân viên"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:text="Tuổi"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"
+            android:gravity="left"/>
+        <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:minHeight="64dp"
+            android:hint="Độ tuổi"/>
+        <TextView
+            android:id="@+id/textViewNotiEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textStyle="italic"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="16dp">
+            <Button
+                android:id="@+id/buttonNoEditUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12dp"
+                android:backgroundTint="#10FF8A"
+                android:text="Xoá NV"
+                />
+            <Button
+                android:id="@+id/buttonYesEditUser"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="12dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Quay LẠI"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
